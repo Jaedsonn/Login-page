@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js" defer></script>
+</head>
+
+<body>
+    <div id="alert"><button id="alert-b" onclick="sair()"><img src="x icon.png" alt=""></button>Senha incorreta!</div>
+    <section id="img">
+        <img src="Artificial intelligence-pana.svg" alt="IMAGEM QUE EU AINDA NÃO ESCOLHI">
+    </section>
+    <section id="dados">
+        <div id="conteiner-d2">
+            <h1>Insira seus dados:</h1>
+            <div class="dados-c2">
+                <label for="nome">Nome:</label>
+                <input type="text" name="email" class="ask2">
+            </div>
+            <div class="dados-c2">
+                <label for="email">Email:</label>
+                <input type="email" name="email" class="ask2">
+            </div>
+            <div class="dados-c2">
+                <label for="senha">Senha:</label>
+                <input type="password" name="email" class="ask2" id="put">
+            </div>
+            <div class="dados-c2">
+                <label for="senha-2">Confirme a sua senha:</label>
+                <input type="password" name="senha-2" class="ask2" id="confirm">
+            </div>
+           
+                <button onclick="login()">Criar</button>
+                <p>Já possuí uma conta?<a href="index.html">Entre aqui.</a></p>
+            
+        </section>
+</body>
+
+</html>
